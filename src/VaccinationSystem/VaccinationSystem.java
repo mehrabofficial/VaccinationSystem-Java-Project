@@ -171,13 +171,14 @@ public class VaccinationSystem {
         }
     }
 
-    // method for menu
+    // This Method will work for select step from menu
+
     void menu() {
 
         System.out.println("Select 1 to enter new patient information ");
-        System.out.println("Select 2 to take Vaccination");
+        System.out.println("Select 2 to take Vaccine");
         System.out.println("Select 3 to get Vaccination Information");
-        System.out.println("Select 4 to see Vaccination Information");
+        System.out.println("Select 4 to see the patient eligible for Vaccination");
         System.out.println("Select 5 to exit ");
         System.out.println("\n");
     }

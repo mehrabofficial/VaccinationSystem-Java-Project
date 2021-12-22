@@ -2,13 +2,11 @@ package VaccinationSystem;
 import java.util.Scanner;
 
 public class Main {
-
 public static void main(String[] args) throws Exception {
     VaccinationSystem obj = new VaccinationSystem();
     Scanner in = new Scanner(System.in);
     int selection;
-
-    System.out.println("Insert the number of people:");
+    System.out.println("Insert How Many Patient Information You Want to Add:");
     int b = in.nextInt();
     in.nextLine();
     obj.a = b;
@@ -45,10 +43,8 @@ public static void main(String[] args) throws Exception {
                 break;
         }
 
-
     }
     while (selection < 5);
-
 
 }
 
